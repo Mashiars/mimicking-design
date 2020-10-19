@@ -1,0 +1,55 @@
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+.container div{
+  border:1px solid red;
+  width: 100%;
+}
+
+.meddu{
+  background-color:#18B0FF;
+  height:100px ;
+  padding-top: 4px;
+  border-radius:0 0  25px 25px ;
+  color: #fff;
+
+}
+.login{
+  z-index: 1;
+  margin-top: -12px;
+   border-radius:  25px 25px 0 0;
+  height: 60px;
+  padding-top: 80px;
+  background-color: #fff;
+  color:#3498DB;
+
+}
+
+.username{
+  height: 100px ;
+}
+.password{
+  height: 100px;
+}
+.button{
+  color:blue;
+}
+.dont-have-account{ 
+  height: 50px;
+  border-radius: 0 0 25px 25px ;
+  
+   display: flex;
+   flex-direction:row ;
+   text-align: center;
+   color: steelblue;
+   text-align:center 
+  
+
+
+}
