@@ -8,12 +8,12 @@
   }
   
   .container div{
-    border:1px solid white;
+    border:1px solid #fff;
     width: 100%;
   }
   
   .meddu{
-    background-color:#18B0FF;
+    background: linear-gradient(to right, #2aa4f5 , #0578c4,#0394f5,#2eaafd);
     
     padding-top: 4px;
     border-radius:0 0  25px 25px ;
@@ -23,14 +23,12 @@
     font-weight: bold;
   }
   .login{
-    z-index: 1;
-    margin-top: -12px;
-     border-radius:  25px 25px 0 0;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    margin-top: -19px;
+    border-radius:  25px 25px 0 0;
+
     background-color: #fff;
-    color:#3498DB;
-  
+    color:#2eaafd;
+    text-align:center;
   }
   .login ion-title{
       font-weight: bold;
@@ -38,38 +36,35 @@
   }
   
   .username ion-label {
-    color:#70DCFF;;
+    color:#2eaafd;;
   
     
   }
   ion-input{
-      border-bottom: 2px solid #70DCFF;
+      border-bottom: 2px solid #2eaafd;
   }
   .password ion-label{
-    color:#70DCFF;;
+    color:#2eaafd;;
   
   }
   .forget   {
-    color:#70DCFF;;
+    color:#2eaafd;;
    padding-top: 10px;
    padding-bottom:30px ;
 
 }
   .forget  a {
-       color:#70DCFF;;
+       color:#2eaafd;;
       float:right;
       padding-right: 15px;
   }
-  .login-btn{
 
-
-
-  }
   .login-btn ion-button  {
     color: #fff ;
     width:40%;
     margin-left: 30%;
-    --background:#50A5FF;
+    --background: linear-gradient(to right, #4795FF,#4795FF,#4795FF,#4795FF ,#5EB7F9,#5DADE2,#85C1E9,#5EB7F9,#5EB7F9,#6DD7FE,#6DD7FE,#6DD7FE,#6DD7FE);
+    
   }
   .dont-have-account{ 
     
@@ -89,7 +84,11 @@
   .dont-have-account a{ 
     
     border-radius: 0 0 25px 25px ;
-    font-size: 0.8em;
-    color:#70DCFF;
+    font-size: 0.7em;
+    color:#0798f8;
   
+  }
+  .small-text{
+    padding-top: 10px;;
+    font-size: 0.8em;
   }
