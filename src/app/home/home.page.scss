@@ -1,94 +1,113 @@
 
-
+ion-content{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
 .container{
     display:flex;
     flex-direction: column;
     justify-content:  center;
     align-items: center;
+    
   }
   
   .container div{
     border:1px solid #fff;
     width: 100%;
+
   }
   
   .meddu{
-    background: linear-gradient(to right, #2aa4f5 , #0578c4,#0394f5,#2eaafd);
+    background: linear-gradient(#00A5FF,#1CAFFF,#33B7FF, );
     
-    padding-top: 4px;
-    border-radius:0 0  25px 25px ;
+    top:10% ;                           
+    border-radius:0 0  20px 20px ;
     color: #fff;
     padding:40px;
     text-align: center;
     font-weight: bold;
-  }
-  .login{
-    margin-top: -19px;
-    border-radius:  25px 25px 0 0;
-
-    background-color: #fff;
-    color:#2eaafd;
-    text-align:center;
-  }
-  .login ion-title{
-      font-weight: bold;
-      text-align: center;
+    width: 100%;
   }
   
-  .username ion-label {
-    color:#2eaafd;;
-  
+  ion-card{
     
+    border-radius: 25px 25px 25px 25px ;
+    bottom: 5%;
   }
-  ion-input{
-      border-bottom: 2px solid #2eaafd;
-  }
-  .password ion-label{
-    color:#2eaafd;;
   
-  }
-  .forget   {
-    color:#2eaafd;;
-   padding-top: 10px;
-   padding-bottom:30px ;
+  .login{
+    // border: solid;
+    top: 30%;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+ion-label{
+  color: #94d9ff ;
+}
+h2{
+  font-weight: bold;
+    position: relative;
+    top: 10%;
+    left:40% ;
+    color:#3fbbff ;
+}
+
+.forgot{
+  position: relative;
+  top: 40%;
+  left:56% ;
+  color:  #94d9ff;
 
 }
-  .forget  a {
-       color:#2eaafd;;
-      float:right;
-      padding-right: 15px;
-  }
+ion-button{
+    position: relative;
+    width: 50%;
+    
+   --background:  linear-gradient(to right,#4493FF,#4FA4FF,#53ABFF,#5FC0FE,#69D1FE,#72E0FE );
+    left:25%;
+    
+}
+ion-input{
+    border-bottom: solid #94d9ff 2px;
+    
+}
+.signin{
+    position: relative;
+    top: 38%;
+    left:25% ;
+     color:  #94d9ff;
+}
+ 
+ 
+ 
 
-  .login-btn ion-button  {
-    color: #fff ;
-    width:40%;
-    margin-left: 30%;
-    --background: linear-gradient(to right, #4795FF,#4795FF,#4795FF,#4795FF ,#5EB7F9,#5DADE2,#85C1E9,#5EB7F9,#5EB7F9,#6DD7FE,#6DD7FE,#6DD7FE,#6DD7FE);
-    
-  }
-  .dont-have-account{ 
-    
-    border-radius: 0 0 25px 25px ;
+ 
   
-  }
-
-  .dont-have-account{
-      padding-top: 30px;
-    padding-bottom:40px ;
-    text-align: center ;
-    -webkit-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
-    -moz-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
-    box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
-    }
-
-  .dont-have-account a{ 
+  // .dont-have-account{ 
     
-    border-radius: 0 0 25px 25px ;
-    font-size: 0.7em;
-    color:#0798f8;
+  //   border-radius: 0 0 25px 25px ;
   
-  }
-  .small-text{
-    padding-top: 10px;;
-    font-size: 0.8em;
-  }
+  // }
+
+  // .dont-have-account{
+  //     padding-top: 30px;
+  //   padding-bottom:40px ;
+  //   text-align: center ;
+  //   -webkit-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
+  //   -moz-box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
+  //   box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.26);
+  //   }
+
+  // .dont-have-account a{ 
+    
+  //   border-radius: 0 0 25px 25px ;
+  //   font-size: 0.7em;
+  //   color:#0798f8;
+  
+  // }
+  // .small-text{
+  //   padding-top: 10px;;
+  //   font-size: 0.8em;
+  // }

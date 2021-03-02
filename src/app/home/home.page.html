@@ -1,4 +1,4 @@
-<ion-content padding center text-center>
+<ion-content >
 
     <div class ="container" > 
       <div class="meddu">
@@ -6,64 +6,52 @@
       <ion-title > EDUCATION</ion-title>
       </div>
       
+      
+    </div>
+    <ion-card>
+      <br>
+      <br>
+      <h2>LOGIN</h2>
 
-    
+      <br>
+      <br>
+      <div class="login">
+       
+
+      <ion-list>
+        
+        <ion-label>Username</ion-label>
+        <br>
+        <br>
+        <ion-input></ion-input>
+      <br>
+      <br>
+        <ion-label> Password</ion-label>
+          <ion-input></ion-input>
+          
+          <p class="forgot">Forgot your password</p>
+  
+      <ion-button expand="round" (click)="loginUser()">LOGIN</ion-button>
+    </ion-list>
+   </div>
+  
+   <div class="signin">
+    <P>Don't have an account? Sign Up </P>
+  
+  </div>
+  <br>
+  <br>
+  <br>
+    </ion-card>
+
+  
 
     
         
           
-             <div class="login">
-               <h1><b>LOGIN</b></h1>
-              </div>
     
-              <div class="username">
-              <ion-item lines="full">
-                <ion-label position="floating">Username</ion-label>
-                <ion-input type="text" required></ion-input>
-              </ion-item>
-              </div>
-    
-              <div class="password">
-              <ion-item lines="full">
-                <ion-label position="floating">Password</ion-label>
-                <ion-input type="password" required></ion-input>
-              </ion-item>
-            </div>
-            <div class="forget" >
-                <a class="small-text">Forget your password</a>
-              </div>
              
-          <div class="login-btn">
-              <ion-row>
-                <ion-col>
-                  <ion-button type="submit"  expand="round">LOGIN</ion-button>
-                </ion-col>
-              </ion-row>
-          </div>
-          <div class="dont-have-account">
-            <a >Dont have an account? Signup</a>
-          </div>
-             <br>
-             <br>
-             <br>
-             <br>    <br>
-             <br>
-             <br>
-             <br>
-             <br>
-          </div>
-        
-        
-
-    
-       
-    
-      
-       
-    
-    
-    
-    
+  
     </ion-content>
     
     
